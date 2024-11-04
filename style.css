@@ -58,10 +58,10 @@
     }
 
     #about-img img, #skill img, #education-img img {
-        width: 450px;
+        width: 334px;
         height: 460px;
-        padding-right: 100px;
-        margin-right: 250px;
+        border-radius: 10px;
+        margin-left: -404px;
     }
 
     #about-dis, #skills-dis, #experience-dis {
@@ -88,11 +88,11 @@
         flex-direction: column-reverse;
     }
 
-    #ex img{
-         width: 450px;
-        height: 460px;
-        padding-right: 67px;
-        margin-right: -57px;
+    #experience img{
+       width: 334px;
+       height: 460px;
+       border-radius: 10px;
+       margin-left: -10px;
     }
     
     .experience{
