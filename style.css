@@ -89,9 +89,10 @@
     }
 
     #ex img{
-        width: 402px;
-        height: 621px;
-        padding-right: 90px;
+         width: 450px;
+        height: 460px;
+        padding-right: 100px;
+        margin-right: 250px;
     }
     
     .experience{
