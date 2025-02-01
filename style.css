@@ -1,0 +1,107 @@
+@media screen and (max-width: 768px) {
+
+    .outer {
+        width: 100%;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .title{
+        display: none;
+    }
+
+    .title h4 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    nav ul {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .header {
+        padding-left: 20px;
+        height: auto;
+    }
+
+    .header p, .header h1, .header h3 {
+        padding-left: 10px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .image img {
+        height: 250px;
+        width: 200px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .about, .skills, .education, .experience {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-img img, #skill img, #education-img img {
+        width: 334px;
+        height: 460px;
+        border-radius: 10px;
+        margin-left: -404px;
+    }
+
+    #about-dis, #skills-dis, #experience-dis {
+        width: 100%;
+        padding: 0;
+    }
+
+    .socical.icon i {
+        font-size: 24px;
+        margin-right: 15px;
+    }
+     
+
+    .skills{
+        margin-top: 600px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 700px;
+    }
+    #experience img {
+        width: 334px;
+        height: 460px;
+        border-radius: 10px;
+        margin-left: -10px;
+    }
+
+    .experience{
+        margin-top: 600px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    
+    
+    .experience{
+        margin-top: 800px;
+    }
+    .button {
+        margin-left: 0;
+        display: block;
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+
